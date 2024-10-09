@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 import fs from 'fs';
 import inquirer from 'inquirer';
+import generateMarkdown from './generateMarkdown.js';
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -66,37 +67,13 @@ function writeToFile(fileName, data) {
 async function init() {
     try {
         const answers = await inquirer.prompt(questions);
-        const content = `
-# ${answers.title}
-
-## Description
-${answers.description}
-
-## Table of Contents
-
-## Installation
-${answers.installation}
-
-## Usage
-${answers.usage}
-
-## Contribution
-${answers.contribution}
-
-## License
-${answers.license}
-
-## GitHub
-${answers.github}
-
-## Questions
-${answers.email}
-        `;
-        writeToFile('README.md', content);
+        const content = generateMarkdown(answers); // Generate markdown using the answers
+        writeToFile('READMEE.md', content); // Corrected file name
     } catch (error) {
         console.error('Error initializing app:', error);
     }
 }
+
 
 // Function call to initialize app
 init();
