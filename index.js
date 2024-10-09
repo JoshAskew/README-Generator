@@ -72,6 +72,8 @@ async function init() {
 ## Description
 ${answers.description}
 
+## Table of Contents
+
 ## Installation
 ${answers.installation}
 
