@@ -67,8 +67,8 @@ function writeToFile(fileName, data) {
 async function init() {
     try {
         const answers = await inquirer.prompt(questions);
-        const content = generateMarkdown(answers); // Generate markdown using the answers
-        writeToFile('READMEE.md', content); // Corrected file name
+        const content = generateMarkdown(answers);
+        writeToFile('dist/README.md', content);
     } catch (error) {
         console.error('Error initializing app:', error);
     }
