@@ -1,4 +1,5 @@
 # README Generator
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 This application is designed to create a README.md file based on the users input.
@@ -68,7 +69,6 @@ Contributions are welcome! To contribute to this project, please follow these st
 
 ## License
 This project is licensed under the MIT license.
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
 * [License](https://opensource.org/license/mit)
