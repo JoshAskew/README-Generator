@@ -22,7 +22,7 @@ This application is designed to create a README.md file based on the users input
     ```bash
     cd your-repo-name
 3. **Install Dependencies**: 
-    Make sure you have Node.js installed on your machine. If you haven't installed it yet, you can download it from nodejs.org.
+    Make sure you have Node.js installed on your machine. If you haven't installed it yet, you can download it [here](https://nodejs.org/en).
 
     Then, install the required packages using npm:
     ```bash
@@ -33,6 +33,7 @@ This application is designed to create a README.md file based on the users input
     node index.js
 ## Usage
 The application is used by running the node index command in the terminal. This will prompt you with some questions that will allow you to fill in the content to the corresponding sections of your README file. You can play the video to see the process in action!
+[Watch the Video](https://drive.google.com/file/d/1RAzw-IyCSl3krEYR7WWUf6QSxhEC0W4m/view?usp=drive_link)
 
 ## Contribution
 
@@ -71,5 +72,11 @@ This project is licensed under the MIT license.
 
 
 * [License](https://opensource.org/license/mit)
+
+## GitHub
+[JoshAskew](https://github.com/JoshAskew)
+
+## Questions
+If you have any questions reguarding this application, feel free to e-mail me at asksprit3@gmail.com
 
 
