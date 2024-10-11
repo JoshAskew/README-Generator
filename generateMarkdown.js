@@ -59,6 +59,7 @@ ${data.description}
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contribution](#contribution)
+* [Test](#test)
 * [License](#license)
 * [GitHub](#github)
 * [Questions](#questions)
@@ -71,6 +72,9 @@ ${data.usage}
 
 ## Contribution
 ${data.contribution}
+
+## Test
+${data.test}
 
 ${renderLicenseSection(data.license)}
 ${renderLicenseBadge(data.license)}

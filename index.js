@@ -29,6 +29,10 @@ const questions = [
         name: 'contribution',
         message: 'What are the contribution guidelines?'
     },
+    {   type: 'input',
+        name: 'test',
+        message: "How can someone test that all the code is working?"
+    },    
     {
         type: 'list',
         name: 'license',
