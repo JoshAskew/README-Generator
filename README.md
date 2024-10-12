@@ -79,4 +79,6 @@ This project is licensed under the MIT license.
 ## Questions
 If you have any questions reguarding this application, feel free to e-mail me at asksprit3@gmail.com
 
-
+## Credits
+- **University of Minnesota**: For providing resources and support throughout this project.
+- **Node.js**: For the powerful JavaScript runtime that enabled the development of this application.
