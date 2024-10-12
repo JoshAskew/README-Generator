@@ -1,6 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
+  // Check the type of license and return the corresponding badge
   if (license==='MIT') {
   return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
   }
@@ -17,12 +18,13 @@ function renderLicenseBadge(license) {
         return `[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`;
         }
 
-        else return '';
+        else return ''; // This will return an empty string if no license is provided
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
+  // Check the license type and return the corresponding link
     if (license=== 'MIT') {
     return `\n* [License](https://opensource.org/license/mit)`;
     }
@@ -35,7 +37,7 @@ function renderLicenseLink(license) {
     else if (license=== 'BSD 3-Clause') {
       return `\n* [License](https://opensource.org/license/bsd-3-clause)`;
       }
-        else return '';
+        else return ''; // This returns an empty string if no license if provided
 }
 
 // TODO: Create a function that returns the license section of README
@@ -49,7 +51,7 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-
+// Return the complete markdown string formatted for the README file
   return `# ${data.title}
 
 ## Description
@@ -84,5 +86,5 @@ ${renderLicenseLink(data.license)}
 
 `;
 }
-
+// Export the generateMarkdown function for use in other modules
 export default generateMarkdown;
