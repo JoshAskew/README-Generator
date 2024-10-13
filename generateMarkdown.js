@@ -81,6 +81,12 @@ ${data.test}
 ${renderLicenseSection(data.license)}
 ${renderLicenseBadge(data.license)}
 
+## GitHub
+${data.github}
+
+## Questions
+${data.email}
+
 ${renderLicenseLink(data.license)}
 
 
